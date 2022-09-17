@@ -5,5 +5,5 @@ export default async (req: IncomingMessage, res: ServerResponse) => {
   // @ts-ignore
   const user = req.user;
 
-  return user ? user : "User is signed out"
+  return user ? user : "User is signed out!!!!"
 };
